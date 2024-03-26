@@ -7,7 +7,8 @@
 
         static Repository()
         {
-            
+            _Categories.Add(new Category{CategoryId =1 , Name= "Telefon"}); 
+            _Categories.Add(new Category{CategoryId =2 , Name= "Bilgisayar"}); 
         }
 
         public static List<Product> Products
