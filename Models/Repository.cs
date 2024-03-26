@@ -5,6 +5,10 @@
         private static readonly List<Product> _products = new();
         private static readonly  List<Category> _Categories = new();
 
+        static Repository()
+        {
+            
+        }
 
         public static List<Product> Products
         {
