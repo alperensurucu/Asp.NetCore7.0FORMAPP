@@ -11,7 +11,7 @@ namespace Asp.NetCore7._0FORMAPP.Controllers
         {
             
         }
-
+         
         public IActionResult Index()
         {
             return View(Repository.Products);
