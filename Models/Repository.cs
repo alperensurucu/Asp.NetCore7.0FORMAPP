@@ -15,8 +15,8 @@
             _products.Add(new Product {ProductId= 3,Name = "Iphone 16",Price= 60000,IsActive= true,Image= "4.jpeg", CategoryId=1});
             _products.Add(new Product {ProductId= 4,Name = "Iphone 17",Price= 70000,IsActive= true,Image= "5.jpeg", CategoryId=1});
 
-            _products.Add(new Product {ProductId= 5,Name = "Macbook Air",Price= 80000,IsActive= true,Image= "5.jpeg", CategoryId=2});
-            _products.Add(new Product {ProductId= 6,Name = "Macbook Pro",Price= 90000,IsActive= true,Image= "5.jpeg", CategoryId=2});
+            _products.Add(new Product {ProductId= 5,Name = "Macbook Air",Price= 80000,IsActive= true,Image= "9.jpeg", CategoryId=2});
+            _products.Add(new Product {ProductId= 6,Name = "Macbook Pro",Price= 90000,IsActive= true,Image= "10.jpeg", CategoryId=2});
         }
 
         public static List<Product> Products

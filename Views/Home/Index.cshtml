@@ -18,18 +18,21 @@
         @foreach (var prd in @Model)
         {
             <tr>
+                @prd.ProductId
                 <td>
-                    @prd.ProductId
+                    <img src="~/img/@prd.Image" class="img-fluid" alt=""/>
                 </td>
                 <td>
                     @prd.Image
-                </td>
+                </td>                         
                 <td>
                     @prd.Name
                 </td>
                 <td>
                     @prd.Price
                 </td>
+                <a href="" class="btn btn-sm btn-primary">Edit</a>
+                <a href="" class="btn btn-sm btn-primary">Delete</a>
             </tr>
         }
     </tbody>
